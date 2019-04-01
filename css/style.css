@@ -1,0 +1,29 @@
+body{max-width: 1280px; width: 100%; color: #999; font-family: 'Noto Serif', 'Droid Serif', 'Times New Roman', serif; font-size: 16px; line-height: 21px;}
+body.grid{display: grid; grid-template-columns: 147px 1fr 147px;}
+body.grid.homepage{grid-template-rows: 64vh 36vh;}
+header, main{grid-column:2;}
+h1, h2{line-height: 46px;}
+h1{font-size: 42px;}
+h2{font-size:38px;}
+h3{padding-bottom:21px; color:#333; font-family: 'Asap', Helvetica, Arial, sans-serif; font-size: 18px; text-transform: uppercase;}
+h3 a{position:relative; padding-bottom:2px; color:#333;}
+h3 a::after{content:'';position: absolute; bottom:0; left:0; width: 0; display:block; border-bottom: 2px solid #fff; transition: all .3s ease-in-out;}
+h3 a:hover::after{width: 100%; border-color:#FFC560;}
+a{transition: all .3s ease-in-out;}
+a.interface{color:#333; font-family: 'Asap', Helvetica, Arial, sans-serif; font-size: 16px;}
+.homepage header{grid-area:1/1/2/4; background-image: url('../img/yannick-vandenthoren.jpg'); background-size: cover; background-position: top center;}
+.homepage main{display: flex; align-items:center;}
+.homepage main div{max-width:235px; width:100%; height:136px; padding:0 8px;}
+.homepage main div.social{display: flex; justify-content: flex-end; align-items:flex-end;}
+.homepage main div.social a.social-link{padding:0 5px; color:#999;}
+.homepage main div.social a.social-link:hover{color:#FFC560;}
+@media only screen and (max-width: 1000px) {
+  body.grid{grid-template-columns: 36px 1fr 36px;}
+  .homepage main div{height:170px;}
+}
+@media only screen and (max-width: 500px) {
+  body.grid.homepage{grid-template-rows: 50vh 1fr;}
+  .homepage main{flex-direction: column;}
+  .homepage main div{height:auto;max-width:none;padding:30px 0;}
+  .homepage main div.social{justify-content: center; padding-bottom: 60px;}
+}

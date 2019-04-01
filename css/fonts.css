@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Noto+Serif:400,400i');
+@font-face {font-family: 'icomoon'; src:  url('fonts/icomoon.eot?j79u0u'); src:  url('fonts/icomoon.eot?j79u0u#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?j79u0u') format('truetype'), url('fonts/icomoon.woff?j79u0u') format('woff'), url('fonts/icomoon.svg?j79u0u#icomoon') format('svg'); font-weight: normal; font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.icon-twitter:before {content: "\a00"; }
+.icon-facebook:before {content: "\a01"; }
+.icon-facebook-f:before {content: "\a01"; }
+.icon-linkedin:before {content: "\a04"; }
+.icon-instagram:before {content: "\a07"; }
+.icon-dribbble:before {content: "\a08"; }
+.icon-envelope-o:before {content: "\f003"; }
+.icon-sort:before {content: "\e164"; }
+.icon-arrow-left:before {content: "\e900"; }
