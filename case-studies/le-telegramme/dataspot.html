@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Télégramme | Case Study | Yannick Vandenthoren</title>
+  <link rel="stylesheet" href="../le-telegramme.css">
+  <meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+</head>
+<body class="dataspot">
+  <header>
+    <h3><a href="/case-studies/le-telegramme.html">Le Télégramme</a> <span>| Dataspot</span></h3>
+    <a href="/case-studies/le-telegramme.html" class="interface"><i class="icon-arrow-left"></i> return</a>
+    <label class="interface hide"><i class="icon-sort"></i> explore</label>
+  </header>
+  <article>
+    <h2 class="title">Creating the data <br>experience on the website</h2>
+    <p class="introduction">
+      Certainly one of my most important project during my stay at le Télégramme. Why ? Because at this time, I found out in which direction I wanted to make evolve the whole newspaper website design.
+    </p>
+    <picture class="hero">
+      <source media="(min-width: 500px)" srcset="dataspot-map.png">
+        <img src="dataspot-map.png" alt="">
+    </picture>
+    <div class="explanation">
+      <p>I was not alone on this project. I worked hand in hand with Vincent Lastennet who was the journalist that wanted to create a data experience on the website.</p>
+
+      <p>Together, we explored the kind of articles were about to be published on this part of the site and how to showcase the different informations he would find. Two general type of data visualisation would be use : graphs and maps.</p>
+
+      <p>Graphs are quite simple to integrate in an article. You just create your graph on whichever program you want to use and you copy/paste the code it gives you in your article. <em>— We found out that it was not that simple as html was not permitted in the website editor. Nightmare here we come ! —</em></p>
+
+      <p>For the maps, depending of the data to be shown, we had the possibility to see it in the article but if there was a big amount of informations, that became quite tricky. We ended up having to create a new way of creating articles, a full screen article.</p>
+    </div>
+    <picture class="une">
+      <source media="(min-width: 500px)" srcset="dataspot-homepage.png">
+        <img src="dataspot-homepage.png" alt="">
+    </picture>
+    <div class="homepage">
+      <h3>DATASPOT HOMEPAGE</h3>
+      <p>As it was a new section, the marketing and editorial team wanted the people to know that they entered on a new part of the website. Meaning a logo of it’s own and a slightly enhanced design.</p>
+
+      <p>For the logo, it was Gilles Danet that found the idea of using the spot from Google Maps in the word Dataspot. I ended up adding the hashtag icon inside of it to be able to use that part of the logo as an icon.</p>
+
+      <p>Did you know that the newspapers in France all follow the same rules for the advertising ? No. Me neither. Those advertising rules are quite restrictive. An exemple is that the page has to be 1.000px wide because there is a kind of advertising that use all the white space around and a bit on the top. A top challenge !</p>
+
+      <p>Another one is the fact that an advertising must appear in the right column <em>— meaning your design has to have column… Bye bye this pretty fullscreen design ! —</em> in the first screen.</p>
+
+      <p>Basically, you can have an ad everywhere. Happily, we found an agreement. As the section was a new one and not on the first page, I was authorised to make that second ad disappear. But only this one.</p>
+
+      <p>Yiphaaaa ! Victory from design over advertising. Next steps, actually designing stuff.</p>
+
+      <p>I wanted to have the last article taking the whole width available with a background colour behind, meaning, this is a new modern part of the website. Without ad, your were able to see the menu, the logo, social buttons and the first article on your screen. No need to scroll to get access to the last information. A bit like on a paper version of a newspaper.</p>
+
+      <p>Afterwards, you dig deeper in the section with other article and that column with that pretty advertising block.</p>
+
+      <p>Another technical aspect that we had to tackle was the fact that the section would not have a “live” thread like you have on homepage. The solution was to use Twitter instead and to style it like the section.</p>
+    </div>
+    <div class="full">
+      <h3>FULL WIDTH ARTICLE</h3>
+      <p>Remember that I had to create two ways of seeing a map data-visualisation ? After some trials and lots of fails on a normal sized article, we realised that if the map had filters, a legend and the zoom option, you were able to see nothing. Sorry, I’m exaggerating, you felt like a tank driver looking through that small window he has to drive.</p>
+
+      <p>We decided to create a new article size. The full width size. Know what ? Back to this discussion about advertising, etc…</p>
+
+      <p>This new format give us the ability to showcase a 1.000px wide map. A more comfortable way to explore the data. And if you wanted to see more, no problem, just go to the fullscreen version of it !
+      </p>
+    </div>
+    <picture class="full-img">
+      <source media="(min-width: 500px)" srcset="dataspot-full-width.png">
+      <img src="dataspot-full-width.png" alt="">
+    </picture>
+    <div class="map">
+      <h3>THE MAGNIFICENT FULLSCREEN MAP</h3>
+      <p>Look at this how pretty this is ! No ad that try to get your attention, nothing to distract you, only the data to explore.</p>
+
+      <p>But a big marketing problem. We don’t want the people to leave the website afterwards. Worse for the editorial, there is no way of giving informations about what that map talk about…</p>
+
+      <p>For every problem there is a solution. I created a box on the left side of the map to showcase some link to get the reader coming back on the website. This way we were able to give more by liking the map to an article or more on the website. Easy as 1-2-3.</p>
+
+      <p>And for the what that map talk about, I created a toggled header that opened with the informations explaining the why and what of the map.</p>
+
+      <p>Then I had to code all the aspect I imagined for the UI. — Yes those filters as well… A CSS nightmare ! —
+      </p>
+    </div>
+    <picture class="map-img">
+      <source media="(min-width: 500px)" srcset="dataspot-full-screen-map.png">
+      <img src="dataspot-full-screen-map.png" alt="">
+    </picture>
+    <div class="lesson">
+      <h3>LESSONS LEARNED</h3>
+      <p>Working on this project gave me a full view of the challenge existing in the editorial world and especially with the advertising rules that nobody tell you about.</p>
+
+      <p>I had to learn to integrate my CSS code in a pre-existing system where trying to have a clean and reusable code was not the top priority.</p>
+
+      <p>I also worked with the D3JS library to test this track to eventually create our own tool. And I learned something important that day <em>— and half of the night —</em> : If someone created that tool already, just use it. Don’t make your life more complicated.</p>
+    </div>
+    <div class="end">
+      <h3>TODAY</h3>
+
+      <p>The section still exist and evolve from time to time but not by my hand anymore. Recently, I’ve seen some changes in the colours used. They created a new dataviz type, it’s more about different content that you can filter like for the elections.</p>
+
+      <p>You can visit all of this on <a href="http://www.letelegramme.fr/dataspot">Le Télégramme in the Dataspot section</a>.</p>
+    </div>
+    <div class="share hide">
+      <span class="interface">share it maybe</span>
+      <a href=""><i class="icon-facebook"></i></a>
+      <a href=""><i class="icon-twitter"></i></a>
+      <a href=""><i class="icon-linkedin"></i></a>
+    </div>
+    <div class="next-study">
+      <span class="interface">next</span>
+      <h3><a href="">Revamp</a></h3>
+      <p>Going back to the paper and reimagining what a newspaper website experience should be.</p>
+    </div>
+  </article>
+</body>
+</html>
