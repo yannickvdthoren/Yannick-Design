@@ -7,10 +7,7 @@ body.studies main div.excerpt.second{grid-area:5/1/6/2;}
 body.dataspot article{grid-area:2/1/3/4; display: grid; grid-template-columns: 1fr repeat(3, 324px) 1fr;
   grid-template-rows: repeat(2, 110px) 500px 550px 110px 1fr 110px 710px 110px 250px 950px 250px 200px;
   margin:110px auto;grid-column-gap: 16px;}
-body.dataspot header{position:fixed; padding:40px 0; margin-left:140px;}
-body.dataspot article h3{margin-bottom: 21px;}
-body.dataspot article p{margin-bottom: 20px; line-height: 21px;}
-body.dataspot article h2.title{grid-area:1/2/2/4;}
+body.dataspot header, body.revamp header{position:fixed; padding:40px 0; margin-left:140px;}
 body.dataspot article p.introduction{grid-area:2/2/3/4;}
 body.dataspot article picture.hero{grid-area: 1/2/5/6; overflow: hidden;}
 body.dataspot article picture.hero img{width:1340px;}
@@ -25,7 +22,39 @@ body.dataspot article picture.map-img{grid-area:11/1/12/6; align-self: center;}
 body.dataspot article div.lesson{grid-area:12/2/13/4; columns:2; margin-top:20px;}
 body.dataspot article div.end{grid-area:12/4/13/5; margin-top:20px;}
 body.dataspot article div.share{grid-area:13/2/14/3;}
-body.dataspot article div.next-study{grid-area:13/3/14/5; align-self: flex-end}
+body.dataspot article div.next-study{grid-area:13/3/14/5; align-self: flex-end;}
+body.revamp article{grid-area:2/1/3/4; display: grid; grid-template-columns: 1fr repeat(3, 324px) 1fr;
+  grid-template-rows: 140px 250px 365px 350px 670px 720px 400px 750px 860px 600px 1fr 500px 480px 270px 200px;
+  margin:110px auto;grid-column-gap: 16px;}
+body.revamp article picture.une{grid-area: 1/2/4/3; text-align: center;}
+body.revamp article picture.une img{width:80%;}
+body.revamp article h2.title{grid-area: 2/3/3/4; text-align: center;}
+body.revamp article div.introduction{grid-area: 3/3/4/4;}
+body.revamp article picture.une-morlaix{grid-area: 1/4/4/5; text-align: center;}
+body.revamp article picture.une-morlaix img{width:80%;}
+body.revamp article div.video{grid-area: 4/2/5/4; columns:2; align-self: flex-end;}
+body.revamp article div.artem{grid-area: 4/4/5/5; align-self: flex-end;}
+body.revamp article div.vimeo{grid-area: 5/2/6/5; padding: 60px; align-self: center;}
+body.revamp article div.sondage{grid-area: 6/2/7/3; align-self: center;}
+body.revamp article picture.sondage{grid-area: 6/3/7/5;}
+body.revamp article div.navbar{grid-area: 7/2/8/5; columns: 3;}
+body.revamp article picture.navbar{grid-area: 8/2/9/5;}
+body.revamp article picture.homepage{grid-area: 9/2/10/4; padding:0 70px;}
+body.revamp article div.homepage{grid-area: 9/4/10/5; align-self: center;}
+body.revamp article picture.town{grid-area: 10/2/11/4; padding:0 70px;}
+body.revamp article div.town{grid-area: 10/4/11/5; align-self: center;}
+body.revamp article picture.general{grid-area: 11/2/12/4; padding:0 70px;}
+body.revamp article div.general{grid-area: 11/4/12/5; align-self: center;}
+body.revamp article div.city{grid-area: 12/2/13/3; align-self: center;}
+body.revamp article picture.city-une{grid-area: 12/3/13/4;  align-self: center;}
+body.revamp article picture.city-sport{grid-area: 12/4/13/5;  align-self: center;}
+body.revamp article picture.city-cinema{grid-area: 13/2/14/3;}
+body.revamp article picture.city-agenda{grid-area: 13/3/14/4;}
+body.revamp article picture.city-forecast{grid-area: 13/4/14/5;}
+body.revamp article div.one-more-thing{grid-area: 14/2/15/4; columns: 2;}
+body.revamp article div.today{grid-area: 14/4/15/5;}
+body.revamp article div.share{grid-area: 15/2/16/3;}
+body.revamp article div.next-study{grid-area: 15/3/16/5; align-self: flex-end;}
 @media only screen and (max-width: 768px) {
   body.studies main{margin-top:120px;}
 }

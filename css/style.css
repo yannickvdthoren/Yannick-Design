@@ -19,6 +19,7 @@ p a:hover{border-color:#999;}
 em{font-style: italic;}
 picture img{width:100%;}
 .hide{display: none;}
+.more-infos{color:#999; font-family: 'Asap', Helvetica, Arial, sans-serif; font-size: 16px;}
 .interface{color:#999; font-family: 'Asap', Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: middle; cursor: pointer;}
 .interface i{vertical-align: text-bottom;}
 .interface:hover{color:#FFC560;}
@@ -31,6 +32,9 @@ body.homepage main div.social a.social-link:hover{color:#FFC560;}
 body.studies{grid-template-rows: 80px 1fr;}
 body.studies header{position: fixed; margin-top:40px; margin-left: 147px;}
 body.studies main{grid-area:2/2/3/3;}
+body article h3{margin-bottom: 21px;}
+body article p{padding-bottom: 20px; line-height: 21px;text-align: justify;}
+body.dataspot article h2.title{grid-area:1/2/2/4;}
 @media only screen and (max-width: 1024px) {
   body{grid-template-columns: 36px 1fr 36px;}
   .homepage main div{height:170px;}
